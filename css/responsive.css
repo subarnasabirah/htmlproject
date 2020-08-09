@@ -1,4 +1,4 @@
-@media only screen and (max-width: 998px) and (min-width: 767px){
+@media(max-width: 998px){
     /* navbar start */
     .navbar-nav{
         margin-top: 20px!important;
@@ -109,8 +109,3 @@
 
 }
 
-@media only screen and (max-width: 767px) and (min-width: 575px){
-
-    
-    
-}
