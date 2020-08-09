@@ -1,0 +1,116 @@
+@media only screen and (max-width: 998px) and (min-width: 767px){
+    /* navbar start */
+    .navbar-nav{
+        margin-top: 20px!important;
+
+    }
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+    .navbar-nav li .active:before{
+        width: 0%!important;
+    }
+    .navbar-brand{
+        width: 150px;
+        height: 55px;   
+       
+    }
+    .navbar-nav li{
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background: rgba(107,111,255,0.7);
+        /* background:rgba(98,102,222,0.8); */
+        border-top: 1px solid #ffffff80;
+    }
+    
+    .navbar-nav li a{
+        color: #fff;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 15px 22px;
+        text-align: left;
+        text-decoration: none;
+        text-transform: capitalize;
+        width: 93.7%;
+    }
+    
+    .navbar-nav li.scrolled{
+        background: #6B6FFF!important;
+        transition: 0.75s ease;
+        
+    }
+
+    .navbar-nav li .dropdown li{
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background: rgba(107,111,255,0.7);
+        /* background:rgba(98,102,222,0.8); */
+        border-top: 1px solid #ffffff80;
+    }
+
+   
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 0!important;
+        background-color: transparent!important;
+        border:none!important;
+        border-radius: 0!important;
+        transition: 0!important;
+    }
+   
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none!important;
+    }
+
+    .down_img{
+        visibility: hidden;
+    }
+    /* navbar end */
+
+    /* header section start */
+    .header-text h1 {
+        font-size: 30px;
+    }
+    .header-text h3 {
+        font-size: 20px;
+    }
+    /* header section end */
+
+    .about-content {
+        text-align: right;
+        padding-top: 60px;
+
+    }
+
+    .about-img img {
+        width: 100%;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+    }
+
+    
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 575px){
+
+    
+    
+}
