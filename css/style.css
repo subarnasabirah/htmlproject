@@ -373,3 +373,49 @@ p{
     margin: 0 0 10px;
     line-height: 1.2;
 }
+
+/* services area end */
+
+/* projects area start */
+
+.projects-area {
+    padding: 90px 80px;
+}
+.projects-content {
+    text-align: left;
+}
+
+.project-heading h3 {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #414142;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.project-heading h3::before {
+    position: absolute;
+    content: "";
+    width: 65%;
+    height: 4px;
+    background-color: #353899;
+    left: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    bottom: -10px;
+}
+
+.projects-img img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.pa-margintop {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}

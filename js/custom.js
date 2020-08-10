@@ -12,3 +12,7 @@ function myFunction(){
     loader.style.display = 'none';
 
 }
+
+
+
+

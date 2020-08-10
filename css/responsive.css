@@ -84,6 +84,8 @@
         font-size: 20px;
     }
     /* header section end */
+
+    /* about area start */
     .about-us-area{
         padding: 90px 0;
     }
@@ -101,17 +103,37 @@
         transition: .5s;
     }
 
-    
 
     .section-title h2 {
         font-size: 28px;
     }
 
 
+    /* services-area */
 
     .services-area {
         padding: 90px 0;
         background-color: #f9f9ff;
+    }
+
+
+    .section-button a {
+        margin-bottom: 35px;
+    }
+
+    /* projects area */
+
+    .projects-area {
+        padding: 90px 0;
+    }
+
+    .projects-img img {
+      width: 100%;
+    }
+
+    .projects-content{
+        margin-top: 35px;
+        margin-bottom: 35px;
     }
 
 
