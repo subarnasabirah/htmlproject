@@ -8,7 +8,7 @@ $(window).scroll(function(){
 
 
 var loader = document.getElementById('preloader');
-function myFunction(){
+function preLoader(){
     loader.style.display = 'none';
 
 }

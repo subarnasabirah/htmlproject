@@ -353,6 +353,7 @@ p{
     -o-transition: .5s;
     transition: .5s;
     background-color: #fff;
+    margin-bottom: 25px;
 }
 .single-services:hover {
     background-color: #EEEEFE;
@@ -503,21 +504,6 @@ p{
 .single-project:hover .portfolio-text h5 {
     margin-left: 0
 }   
-/* .owl-theme .owl-dots .owl-dot span {
-    background-color: rgba(107, 111, 255,0.5)!important;
-    display: inline-block!important;
-    height: 15px!important;
-    margin: 0 3px!important;
-    width: 15px!important;
-    border-radius: 100%!important;
-}
-.owl-theme .owl-dot.active span {
-    background-color: #6B6FFF !important;
-    height: 15px;
-    width: 15px;
-    border-radius: 100%;
-
-} */
 
 .owl-carousel .owl-dot.active {
     background-color: #6B6FFF !important;
