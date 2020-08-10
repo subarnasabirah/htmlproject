@@ -25,17 +25,16 @@
     transform: translate(-50%, -50%);
     width: 100px;
 }
+/* Preloader end */
 
+
+/* Navbar Start */
 .navbar-brand{
     width: 200px;
     height: 55px;   
    
 }
-header{
-    width: 100%;
-    position: fixed;
-    z-index: 11;
-}
+
 
 .navbar-nav li a{
     font-size: 16px;
@@ -67,9 +66,8 @@ header{
 .bg-light{
     background: transparent!important;
     transition:0.75s ease;
-    transition: 
+    
 }
-
 
 
 .navbar-nav li .dropdown{
@@ -143,6 +141,14 @@ header.scrolled{
 .down_img{
     margin-left: 6px;
 }
+/* Navbar  end */
+
+/* Header area start */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+}
 .header-image-area{
     position: relative;
     width: 100%;
@@ -209,8 +215,11 @@ header.scrolled{
     color: #6B6FFF;
 
 }
+/* header area end */
+
+/* About-us area start */
 .about-us-area{
-    padding: 90px 0;
+    padding: 90px 80px;
 }
 .about-img {
     -webkit-box-shadow: 0 0 15px #dadbff;
@@ -219,6 +228,7 @@ header.scrolled{
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+
 }
 
 .about-img::before {
@@ -254,6 +264,7 @@ header.scrolled{
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+
 }
 .about-img img:hover{
     width: 100%;
@@ -264,7 +275,6 @@ header.scrolled{
 .about-content {
     text-align: right;
     padding-top: 60px;
-    margin-right: 50px;
 }
 .section-title h4 {
     font-size: 18px;
@@ -284,11 +294,11 @@ header.scrolled{
     padding-bottom: 20px;
     line-height: 1.2;
 }
-.about-content p{
-        margin: 0 0 15px;
-        font-size: 18px;
-        line-height: 31px;
-        color: #414142;
+p{
+    margin: 0 0 15px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #414142;
 }
 
 .section-button {
@@ -318,4 +328,48 @@ header.scrolled{
     color: #6B6FFF;
     border: 1px solid #6B6FFF;
 
+}
+
+/* About-us area start end*/
+
+
+
+/****** Service area start ******/
+
+.services-area {
+    padding: 90px 80px;
+    background-color: #f9f9ff;
+}
+.services-content{
+    text-align: left;
+}
+
+.single-services {
+    -webkit-box-shadow: 0 0 15px rgba(218, 219, 255, 0.4);
+    box-shadow: 0 0 15px rgba(218, 219, 255, 0.4);
+    text-align: center;
+    padding: 50px 0 0 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+.single-services:hover{
+    background:#EEEEFE;
+    transition: .5s;
+    
+}
+
+.single-services img {
+    margin-bottom: 30px;
+}
+
+.single-services h4 {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #555454;
+    font-weight: 700;
+    margin: 0 0 10px;
+    line-height: 1.2;
 }

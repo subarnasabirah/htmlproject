@@ -84,6 +84,9 @@
         font-size: 20px;
     }
     /* header section end */
+    .about-us-area{
+        padding: 90px 0;
+    }
 
     .about-content {
         text-align: right;
@@ -102,6 +105,13 @@
 
     .section-title h2 {
         font-size: 28px;
+    }
+
+
+
+    .services-area {
+        padding: 90px 0;
+        background-color: #f9f9ff;
     }
 
 
