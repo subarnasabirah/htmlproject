@@ -354,12 +354,14 @@ p{
     transition: .5s;
     background-color: #fff;
 }
-.single-services:hover{
-    background:#EEEEFE;
-    transition: .5s;
-    
+.single-services:hover {
+    background-color: #EEEEFE;
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0px 15px 15px 0px #edeaea;
+    box-shadow: 0px 15px 15px 0px #edeaea;
 }
-
 .single-services img {
     margin-bottom: 30px;
 }
@@ -419,3 +421,101 @@ p{
     padding-top: 40px;
     margin-bottom: 30px;
 }
+
+.single-project {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-project img {
+    transition: 1s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.single-project:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.portfolio-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(107, 111, 255, 0.2);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 44%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    
+}
+
+.single-project:hover .portfolio-text {
+    background-color: rgba(107, 111, 255, 0.5);
+   
+}
+
+.portfolio-text h5 {
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    margin-left: -780px;
+    -webkit-transition: .7s;
+    -o-transition: .7s;
+    transition: .7s;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+.portfolio-text a {
+    background-color: #fff;
+    text-decoration: none;
+    color: #6B6FFF;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 30px;
+    -webkit-transition: .7s;
+    -o-transition: .7s;
+    transition: .7s;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -785px;
+}
+
+
+.portfolio-text a:hover {
+    background-color: #6B6FFF;
+    color: #fff;
+}
+
+.single-project:hover .portfolio-text a {
+    margin-left: 0
+}
+
+.single-project:hover .portfolio-text h5 {
+    margin-left: 0
+}   
+.owl-theme .owl-dots .owl-dot span {
+    background-color: rgba(107, 111, 255,0.5)!important;
+    display: inline-block!important;
+    height: 15px!important;
+    margin: 0 3px!important;
+    width: 15px!important;
+    border-radius: 100%!important;
+}
+.owl-theme .owl-dot.active span {
+    background-color: #6B6FFF !important;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+
+}
+
