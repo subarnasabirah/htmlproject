@@ -17,8 +17,6 @@ $('.dot-list').owlCarousel({
     loop:true,
     margin: 30,                              
     nav:false,
-    autoplayHoverPause:true,
-    dots: true,
     autoplay: 1000,
     responsive:{
         0:{
@@ -34,7 +32,7 @@ $('.dot-list').owlCarousel({
             items:3
         }
     }
-})
+});
 
 
 
