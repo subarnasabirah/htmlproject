@@ -17,7 +17,9 @@ $('.dot-list').owlCarousel({
     loop:true,
     margin: 30,                              
     nav:false,
-    autoplay: 1000,
+    autoplay: true,
+    dots: true,
+    smartSpeed:1000,
     responsive:{
         0:{
             items:1
