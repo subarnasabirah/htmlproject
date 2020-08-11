@@ -184,6 +184,12 @@
         display: block;
         padding-bottom: 10px
     }
+    
+    /* contact area */
+
+    .contact-area{
+        padding: 90px 0;
+    }
 
 
 

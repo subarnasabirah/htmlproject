@@ -1093,3 +1093,117 @@ p{
     visibility: visible;
 
 }
+/* contact-us area */
+
+/* #contact{
+    height: 65vh;
+    background-image: url(../images/about/about-page-bg.jpg);
+
+} */
+.contact-area{
+    padding: 90px 80px;
+}
+.team-content{
+    padding-right: 30px;
+}
+.contact-icon{
+    text-align: right;
+    margin-bottom: -40px;
+}
+.contact-box{
+    padding: 15px;
+}
+
+.form-d{
+    background-color: #E1E1FF;
+    border: 15px solid #EFEFFF;
+    padding: 30px;
+    margin-top: 60px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    margin-bottom: 80px
+}
+.form-d2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.form-d:hover{
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0px 15px 15px 0px #edeaea;
+    box-shadow: 0px 15px 15px 0px #edeaea;
+}
+.form-d input[type="text"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    resize: vertical;
+    background: transparent;
+    border-bottom: 2px solid #D4D4FF;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+.form-d input[type="text"]:focus {
+    border-bottom: 2px solid #7e7ef2;
+    padding: 12px 0 12px 15px
+}
+.form-d textarea:focus {
+    border-bottom: 2px solid #7e7ef2;
+    padding: 12px 0 12px 15px
+}
+.form-d input[type="email"]{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    resize: vertical;
+    background: transparent;
+    border-bottom: 2px solid #D4D4FF;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+.form-d input[type="email"]:focus {
+    border-bottom: 2px solid #7e7ef2;
+    padding: 12px 0 12px 15px
+}
+.form-d input[type=submit] {
+    background-color: #6B6FFF;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: 700;
+    width: 150px;
+    text-align: center;
+    -webkit-box-shadow: 0 5px 16px #bababa;
+    box-shadow: 0 5px 16px #bababa;
+    border: 1px solid transparent;
+    margin: auto;
+    display: block;
+    margin-top: 20px
+}
+
+.form-d input[type=submit]:hover {
+    border: 1px solid #6B6FFF;
+    color: #6B6FFF;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 16px transparent;
+    box-shadow: 0 5px 16px transparent;
+    cursor: pointer
+}
