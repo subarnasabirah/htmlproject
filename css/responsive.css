@@ -138,12 +138,53 @@
 
 
     /* Features area */
-
-
     .our-features {
         padding: 90px 0;
         background-color: #F9F9FF
     }
+
+
+    /* team area */
+    .our-team-area{
+        padding: 90px 0;
+        background-color: #F9F9FF;
+    }
+
+
+
+    /* testimonial area */
+
+    .client-testimonial{
+        padding: 90px 0;
+    
+    }
+
+    /* blog-area */
+    .latest-blog-area{
+        padding: 90px 0;
+    }
+    .single-blog{
+        margin-bottom: 30px;
+    
+    }
+    
+
+    .blog-content-heading {
+        display: block;
+        width: 100%;
+    }
+
+    .blog-date {
+        display: block;
+        width: 100%;
+    }
+
+    .blog-date span {
+        text-align: left;
+        display: block;
+        padding-bottom: 10px
+    }
+
 
 
 }
