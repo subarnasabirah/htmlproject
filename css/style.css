@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    z-index: 1;
 }
 /*preloder */
 
@@ -1019,7 +1020,7 @@ p{
     top: 25%;
     margin: auto;
     right: 0;
-    text-anchor: center;
+    text-align: center;
 }
 .blog-image{
     position: relative;
@@ -1145,7 +1146,7 @@ p{
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    margin-bottom: 80px
+    margin-bottom: 80px;
 }
 .form-d2{
     margin-top: 0px;
@@ -1174,11 +1175,11 @@ textarea{
 }
 .form-d input[type="text"]:focus {
     border-bottom: 2px solid #7e7ef2;
-    padding: 12px 0 12px 15px
+    padding: 12px 0 12px 15px;
 }
 .form-d textarea:focus {
     border-bottom: 2px solid #7e7ef2;
-    padding: 12px 0 12px 15px
+    padding: 12px 0 12px 15px;
 }
 .form-d input[type="email"]{
     width: 100%;
@@ -1195,7 +1196,7 @@ textarea{
 }
 .form-d input[type="email"]:focus {
     border-bottom: 2px solid #7e7ef2;
-    padding: 12px 0 12px 15px
+    padding: 12px 0 12px 15px;
 }
 .form-d input[type=submit] {
     background-color: #6B6FFF;
@@ -1239,7 +1240,7 @@ textarea{
     
 }
 .footer-top{
-    padding: 90px 80px;
+    padding: 130px 80px 90px 80px;
 
 }
 
@@ -1265,6 +1266,7 @@ textarea{
     text-align: right;
     position: absolute;
     right: 0;
+
    
    
 }
