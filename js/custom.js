@@ -15,6 +15,7 @@ function preLoader(){
 
 $('.dot-list').owlCarousel({
     loop:true,
+    autoplayHoverPause:true,
     margin: 30,                              
     nav:false,
     autoplay: true,
